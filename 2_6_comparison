@@ -1,0 +1,18 @@
+let x = 10;
+let y = 20;
+
+console.log(x === y); // false
+console.log(x === 10); // true
+
+console.log(x !== y); // true
+
+console.log(x > y); // false
+console.log(x < y); // true
+
+console.log(x >= y); // false
+console.log(x <= y); // true
+
+// Существуют бесконечные числа
+console.log(Infinity > 100500); // true
+console.log(-Infinity < -100500); // true
+console.log(Infinity === Infinity); // true
